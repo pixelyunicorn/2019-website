@@ -1,0 +1,28 @@
+/* Spaces */
+
+$spacing-unit: 32px;
+
+$content-width: 1080px;
+
+$on-phone: 600px;
+$on-tablet: 900px;
+
+$border-radius: 8px;
+
+/* Fonts */
+$header-font: basic-sans, "Helvetica Neue", helvetica, arial, sans-serif;
+$body-font: basic-sans, "Helvetica Neue", helvetica, arial, sans-serif; // monotalic
+
+
+/* Colors */
+$background: #331e3e;
+$color: #ecd1fa;
+
+$uno: #f075c7;
+$duo: #f0d175;
+$tre: #75f0db;
+
+/* Etc */
+
+$transition: 350ms ease-in-out;
+$transition-linear: 350ms linear;

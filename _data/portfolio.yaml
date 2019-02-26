@@ -1,0 +1,15 @@
+- title: Guru
+  desc: As a React Apprentice, I developed new features that improves access to knowledge for sales teams, such as a new content sharing workflow!
+  image: 
+  link: https://getguru.com/
+  case: 
+- title: SEPTA System Status
+  desc: I rebuilt a critical system status page for Philly’s public transportation system using React and responsive design.
+  image: 
+  link: https://septa.neocities.org/
+  case: https://melody.cool/septa
+- title: CodeDay Philly & NYC
+  desc: Since 2014, I help put together a quarterly event that gets students get excited about coding!
+  image: 
+  link: https://codeday.org/
+  case: https://melody.cool/codeday

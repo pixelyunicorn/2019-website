@@ -1,0 +1,106 @@
+---
+title: "Welcome to melody.dev!!1!"
+layout: default
+---
+
+<p>
+  Psst... I was streaming myself attemping to build this site earlier today, you can check it out <a href="https://www.twitch.tv/videos/386750942" target="_blank" class="duo">twitch</a>!
+</p>
+
+<p>
+  What's left to do: come up with images + mask for 3 thangs; come up with about me copy text; revert melody.cool to protfolio-only site; update URL in resume
+</p>
+
+<hr>
+
+<h1 id="welcome">
+  {% include icons/welcome.svg size="42" %}
+  Hey hi, I'm <yeet>Melody Starling!</yeet>
+</h1>
+
+<p class="lead">
+  I'm a sparkly code princess who makes art, websites, and tea! <br> Let's build something cool together.
+</p>
+
+<p>
+  My pronouns are plural <a class="duo" href="http://pronoun.is/they/them" target="_blank">they/them</a>. Nice to meet you!
+</p>
+
+<p>
+  Find me on <a class="uno" href="https://twitter.com/pixelyunicorn" target="_blank"><img src="https://icon.now.sh/twitter/1da1f2" height="12" width="12" /> Twitter</a>, <a class="uno" href="https://github.com/pixelyunicorn" target="_blank"><img src="https://icon.now.sh/github/fff" height="12" width="12" /> GitHub</a>, <a class="uno" href="https://dribbble.com/pixelyunicorn" target="_blank"><img src="https://icon.now.sh/dribbble/ea4c89" height="12" width="12" /> Dribbble</a>, and <a class="uno" href="https://twitch.tv/pixelysquid" target="_blank"><img src="https://icon.now.sh/twitch/b9a3e3" height="12" width="12" /> Twitch</a>.
+</p>
+
+<hr>
+
+<h1 id="portfolio">
+  {% include icons/purse-fill.svg size="42" %}
+  Cool <yeet>thangs</yeet> I worked on!
+</h1>
+
+<p>
+  Here lies some fun and interesting things I recently worked on! You can also find my full webdev, design, and community portfolio at <a class="tre" href="https://melody.cool" target="_blank">{% include icons/bolt.svg size="16" %} melody.cool</a>:
+</p>
+
+<grid column-count="3" phone-column-count="1">
+  {% for project in site.data.portfolio %}
+    <project>
+      <p>
+        {{ project.image }} (funky masked image goes here)
+      </p>
+      <h2>{{ project.title }}</h2>
+      <p>
+        {{ project.desc }}
+      </p>
+      {% if project.link %}
+         <a href="{{ project.link }}" class="button uno"  target="_blank">{% include icons/external-fill.svg size="16" %} View Site</a>
+      {% endif %}
+      {% if project.case %}
+         <a href="{{ project.case }}" class="button duo"  target="_blank">{% include icons/purse-fill.svg size="16" %} Case Study</a>
+      {% endif %}
+    </project>
+  {% endfor %}
+</grid>
+
+<hr>
+
+<h1 id="talks">
+  {% include icons/announcement.svg size="42" %}
+  Talks? <yeet>Talks!!</yeet>
+</h1>
+<p>
+  I like to travel places and share what I learn with y'all! Here are some of my recent talks:
+</p>
+<grid column-count="2" phone-column-count="1">
+  {% for talk in site.data.talks %}
+    <talk style="background-image:url({{ talk.image }})">
+      <h4>{{ talk.title }}</h4>
+      <p>
+        @ {{ talk.event }} {{ talk.date }}
+      </p>
+      {% if talk.link %}
+         <a href="{{ talk.link }}" class="button uno" target="_blank">{% include icons/photo-fill.svg size="16" %} View Slides</a>
+      {% else %}
+         <a href="{{ talk.link }}" class="button disabled uno" target="_blank">{% include icons/photo-fill.svg size="16" %} Slides Soon</a>
+      {% endif %}
+    </talk>
+  {% endfor %}
+</grid>
+
+<hr>
+
+<h1 id="about">
+  {% include icons/emoji.svg size="42" %}
+  Here's a lil' <yeet>about me:</yeet>
+</h1>
+
+<p>
+  Knock, knock! It's Melody and I want to say hi!
+</p>
+
+<p>
+  I'm a queer cyberpunk unicorn code princess. Somehow.
+</p>
+
+<p>
+  I'll finish this before tomorrow afternoon... hopefully!
+</p>
