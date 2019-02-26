@@ -8,7 +8,7 @@ layout: default
 </p>
 
 <p>
-  What's left to do: come up with images + mask for 3 thangs; come up with about me copy text; revert melody.cool to protfolio-only site; update URL in resume
+  What's left to do: come up with images + mask for 3 thangs; come up with about me copy text; update URL in resume
 </p>
 
 <hr>
@@ -38,7 +38,7 @@ layout: default
 </h1>
 
 <p>
-  Here lies some fun and interesting things I recently worked on! You can also find my full webdev, design, and community portfolio at <a class="tre" href="https://melody.cool" target="_blank">{% include icons/bolt.svg size="16" %} melody.cool</a>:
+  Here lies some fun and interesting things I recently worked on! You can also find my full webdev, design, and community portfolio at <a class="tre" href="https://melody.cool" target="_blank">{% include icons/bolt.svg size="22" %} melody.cool</a>:
 </p>
 
 <grid column-count="3" phone-column-count="1">
@@ -52,10 +52,10 @@ layout: default
         {{ project.desc }}
       </p>
       {% if project.link %}
-         <a href="{{ project.link }}" class="button uno"  target="_blank">{% include icons/external-fill.svg size="16" %} View Site</a>
+         <a href="{{ project.link }}" class="button uno"  target="_blank">{% include icons/external-fill.svg size="22" %} View Site</a>
       {% endif %}
       {% if project.case %}
-         <a href="{{ project.case }}" class="button duo"  target="_blank">{% include icons/purse-fill.svg size="16" %} Case Study</a>
+         <a href="{{ project.case }}" class="button duo"  target="_blank">{% include icons/purse-fill.svg size="22" %} Case Study</a>
       {% endif %}
     </project>
   {% endfor %}
@@ -78,9 +78,9 @@ layout: default
         @ {{ talk.event }} {{ talk.date }}
       </p>
       {% if talk.link %}
-         <a href="{{ talk.link }}" class="button uno" target="_blank">{% include icons/photo-fill.svg size="16" %} View Slides</a>
+         <a href="{{ talk.link }}" class="button uno" target="_blank">{% include icons/photo-fill.svg size="22" %} View Slides</a>
       {% else %}
-         <a href="{{ talk.link }}" class="button disabled uno" target="_blank">{% include icons/photo-fill.svg size="16" %} Slides Soon</a>
+         <a href="{{ talk.link }}" class="button disabled uno" target="_blank">{% include icons/photo-fill.svg size="22" %} Slides Soon</a>
       {% endif %}
     </talk>
   {% endfor %}
