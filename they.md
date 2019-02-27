@@ -3,9 +3,9 @@ title: "plural they/them"
 layout: default
 ---
 
-# {% include icons/welcome.svg size="42" %} Hey hi, I'm <yeet>Melody,</yeet> one of many in this brain!
+# {% include icons/welcome.svg size="42" %} I'm <yeet>Melody,</yeet> one of many in this brain!
 
-Here are some example sentences using my plural **they/them** pronouns, from <a href="http://pronoun.is/they/them" class="uno" target="_blank">pronoun.is</a>:
+Here are some example sentences using my **plural they/them** pronouns, from <a href="http://pronoun.is/they/them" class="uno" target="_blank">pronoun.is</a>:
 
 - **They** went to the park.
 
@@ -31,7 +31,7 @@ Yep, there's more than one of us in this brain! I highly reccomend reading <a hr
 
 - 🌿 **Forrest** ~ any pronouns ~ non-verbal, loves tacos and nature, hates chicken
 
-(I will still mostly refer to myself using "I", however "we" will be used in contexts in appropriate.) I go into a bit more detail in this <a href="httphttps://twitter.com/pixelyunicorn/status/1095153748354117632" class="uno" target="_blank">Twitter thread</a>.
+I go into a bit more detail in this <a href="httphttps://twitter.com/pixelyunicorn/status/1095153748354117632" class="uno" target="_blank">Twitter thread</a>. (I will still mostly refer to myself using "I", however "we" will be used in contexts in appropriate.)
 
 ---
 

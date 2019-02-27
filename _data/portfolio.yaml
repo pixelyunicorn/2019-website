@@ -1,15 +1,15 @@
 - title: Guru
-  desc: As a React Apprentice, I developed new features that improves access to knowledge for sales teams, such as a new content sharing workflow!
+  desc: As a React Apprentice, I worked on new features that improves access to knowledge for sales teams!
   image: 
   link: https://getguru.com/
   case: 
-- title: SEPTA System Status
-  desc: I rebuilt a critical system status page for Philly’s public transportation system using React and responsive design.
+- title: Temple University
+  desc: I developed a smple to read and open-source Jekyll theme used today by 100+ department & program sites!
   image: 
-  link: https://septa.neocities.org/
-  case: https://melody.cool/septa
+  link: https://develop.cla.temple.edu/global-studies/
+  case: https://melody.cool/temple
 - title: CodeDay Philly & NYC
-  desc: Since 2014, I help put together a quarterly event that gets students get excited about coding!
+  desc: Since 2014, I help lead a quarterly event that gets students get excited about coding and technology!
   image: 
   link: https://codeday.org/
   case: https://melody.cool/codeday
