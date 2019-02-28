@@ -25,9 +25,9 @@ Yep, there's more than one of us in this brain! I highly reccomend reading <a hr
 
 - 🎶 **Melody** ~ they/them ~ right brain ~ the musical one, slurs voice musically, has the most common sense and primary communicator
 
-- 🦌 **valerie** ~ vi/vim or val ~ left brain ~ the lowercase personality, can focus, total nerrrrrrd, tries to be an obnoxiously cute unicorn deerling
+- 🦌 **<a href="https://valerie.dev" class="tre" target="_blank">valerie</a>** ~ vi/vim or val ~ left brain ~ the lowercase personality, can focus, total nerrrrrrd, tries to be an obnoxiously cute unicorn deerling
 
-- 🔥 **Ambra (Amber)** ~ she/her ~ can design and code (aka can make money) 
+- 🔥 **<a href="https://ambra.dev" class="tre" target="_blank">Ambra (amber)</a>** ~ she/her ~ can design and code (aka can make money) 
 
 - 🌿 **Forrest** ~ any pronouns ~ non-verbal, loves tacos and nature, hates chicken
 
