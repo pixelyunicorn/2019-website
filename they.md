@@ -19,7 +19,7 @@ Here are some example sentences using my **plural they/them** pronouns, from <a 
 
 ---
 
-# {% include icons/emoji.svg size="42" %}{% include icons/emoji.svg size="42" %}{% include icons/emoji.svg size="42" %} <yeet>Plural!?</yeet>
+# {% include icons/member-add.svg size="42" %} <yeet>Plural!?</yeet>
 
 Yep, there's more than one of us in this brain! I highly reccomend reading <a href="https://freyasspirit.com/plurality-playbook/" class="uno" target="_blank">Google's Plurality Playbook</a> for context on understanding dissociative disorders, as well as plurality as a whole. Here are some of us you will be seeing around:
 

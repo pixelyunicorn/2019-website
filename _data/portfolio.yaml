@@ -1,15 +1,18 @@
 - title: Guru
   desc: As a React Apprentice, I worked on new features that improves access to knowledge for sales teams!
-  image: 
+  image: "https://www.getguru.com/assets/images/verify.png"
   link: https://getguru.com/
   case: 
+  mask: "https://cdn.glitch.com/cac749b9-a651-4b28-900e-eab82ca322d7%2Fmask-circle.svg?1551313157031"
 - title: Temple University
   desc: I developed a smple to read and open-source Jekyll theme used today by 100+ department & program sites!
-  image: 
+  image: "https://cdn.glitch.com/cac749b9-a651-4b28-900e-eab82ca322d7%2Ftemple.png?1551313550872"
   link: https://develop.cla.temple.edu/global-studies/
   case: https://melody.cool/temple
+  mask: "https://cdn.glitch.com/cac749b9-a651-4b28-900e-eab82ca322d7%2Fmask-triangle.svg?1551313157057"
 - title: CodeDay Philly & NYC
   desc: Since 2014, I help lead a quarterly event that gets students get excited about coding and technology!
-  image: 
+  image: "https://cdn.glitch.com/cac749b9-a651-4b28-900e-eab82ca322d7%2Fcodeday.png?1551313550757"
   link: https://codeday.org/
   case: https://melody.cool/codeday
+  mask: "https://cdn.glitch.com/cac749b9-a651-4b28-900e-eab82ca322d7%2Fmask-heart.svg?1551313157067"

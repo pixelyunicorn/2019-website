@@ -5,7 +5,7 @@ layout: default
 
 <h1 id="welcome">
   {% include icons/welcome.svg size="42" %}
-  Hey hi, I'm <yeet>Melody Starling!</yeet>
+  Hey hi, I'm <yeet>Melody Starling!!!!</yeet>
 </h1>
 
 <p class="lead">
@@ -35,7 +35,7 @@ layout: default
   {% for project in site.data.portfolio %}
     <project>
       {% if project.image %}<p>
-        <img src="{{ project.image }}" alt="{{ project.name }} screenshot" />
+        <img src="{{ project.image }}" alt="{{ project.title }} screenshot" {% if project.mask %}style="mask: url({{ project.mask }}) 0 0/100% 100%; -webkit-mask: url({{ project.mask }}) 0 0/100% 100%;" {% endif %}/>
       </p>{% endif %}
       <h2>{{ project.title }}</h2>
       <p>
@@ -58,7 +58,7 @@ layout: default
   Talks? <yeet>Talks!!</yeet>
 </h1>
 <p>
-  I love to travel news places to share what I learn with y'all! Here are some of my recent talks:
+  I love to travel new places to share what I learn with y'all! Here are some of my recent talks:
 </p>
 <grid column-count="2" phone-column-count="1">
   {% for talk in site.data.talks %}
