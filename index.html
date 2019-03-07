@@ -34,9 +34,9 @@ layout: default
 <grid column-count="3" phone-column-count="1">
   {% for project in site.data.portfolio %}
     <project>
-      {% if project.image %}<p>
-        <img src="{{ project.image }}" alt="{{ project.title }} screenshot" {% if project.mask %}style="mask: url({{ project.mask }}) 0 0/100% 100%; -webkit-mask: url({{ project.mask }}) 0 0/100% 100%;" {% endif %}/>
-      </p>{% endif %}
+      {% if project.image %}
+        <!-- <img src="{{ project.image }}" alt="{{ project.title }} screenshot" {% if project.mask %}style="mask: url({{ project.mask }}) 0 0/100% 100%; -webkit-mask: url({{ project.mask }}) 0 0/100% 100%;" {% endif %}/> -->
+      {% endif %}
       <h2>{{ project.title }}</h2>
       <p>
         {{ project.desc }}
