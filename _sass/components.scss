@@ -8,8 +8,9 @@ yeet {
 
 project {
   img {
-    display: none; // block;
-    max-width: 100%;
+    display: block;
+    max-width: 200px;
+    margin: 1em auto 0;
   }
 }
 

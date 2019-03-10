@@ -1,3 +1,12 @@
-- Lychee Black Tea
-- Mexican Hot Chocolate
-- Slack Blend (Chamomile)
+- name: Lychee Black Tea
+  
+  size: l
+- name: Mexican Hot Chocolate
+  
+  size: l
+- name: Slack Blend (Chamomile)
+  
+  size: m
+- name: Slack Blend (Chamomile)
+  
+  size: s

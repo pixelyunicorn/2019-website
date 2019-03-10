@@ -35,7 +35,7 @@ layout: default
   {% for project in site.data.portfolio %}
     <project>
       {% if project.image %}
-        <!-- <img src="{{ project.image }}" alt="{{ project.title }} screenshot" {% if project.mask %}style="mask: url({{ project.mask }}) 0 0/100% 100%; -webkit-mask: url({{ project.mask }}) 0 0/100% 100%;" {% endif %}/> -->
+        <img src="{{ project.image }}" alt="{{ project.title }} screenshot" />
       {% endif %}
       <h2>{{ project.title }}</h2>
       <p>
@@ -107,4 +107,10 @@ layout: default
 
 <p>
   <strong>Let's build something cool together!</strong> The best way to get in touch with me is thru Twitter DMs. You can also send an email to hi at this domain!
+</p>
+
+<hr>
+
+<p>
+  PS This site was built on a <a href="https://www.twitch.tv/videos/386750942" target="_blank" class="uno">livestream</a> with <a href="https://glitch.com/~melody" target="_blank" class="uno">Glitch</a> and <a href="https://glitch.com/~jekyll-starter" target="_blank" class="uno">jekyll-starter</a>.
 </p>
