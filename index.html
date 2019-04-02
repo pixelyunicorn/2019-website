@@ -34,9 +34,9 @@ layout: default
 <grid column-count="3" phone-column-count="1">
   {% for project in site.data.portfolio %}
     <project>
-      {% if project.image %}<p>
-        <img src="{{ project.image }}" alt="{{ project.title }} screenshot" {% if project.mask %}style="mask: url({{ project.mask }}) 0 0/100% 100%; -webkit-mask: url({{ project.mask }}) 0 0/100% 100%;" {% endif %}/>
-      </p>{% endif %}
+      {% if project.image %}
+        <img src="{{ project.image }}" alt="{{ project.title }} screenshot" />
+      {% endif %}
       <h2>{{ project.title }}</h2>
       <p>
         {{ project.desc }}
@@ -84,7 +84,7 @@ layout: default
 </h1>
 
 <p>
-  I consider myself to be a jack of all trades, but master of none. My experience consists of a trail mix between:
+  I consider myself to be a jack of all trades, but master of none. My experience is an odd trail mix between:
 </p>
 
 <ul>
@@ -92,6 +92,7 @@ layout: default
   <li>UI/UX Design!</li>
   <li>Community Management!</li>
   <li>Esports!</li>
+  <li>Hoagie Production!</li>
 </ul>
 
 <p>
@@ -99,7 +100,7 @@ layout: default
 </p>
 
 <ul>
-  <li><a href="https://srnd.org/" target="_blank" class="uno"><img src="https://2018.melody.cool/media/stickers/codeday.png" alt="CodeDay Philly logo" style="max-height:1em" /> srnd.org</a>, CodeDay Philly organizer</li>
+  <li><a href="https://srnd.org/" target="_blank" class="uno"><img src="https://2018.melody.cool/media/stickers/codeday.png" alt="CodeDay Philly logo" style="max-height:1em" /> srnd.org</a>, CodeDay Philly &amp; NYC organizer</li>
   <li><a href="https://tacojs.github.io" target="_blank" class="uno"><img src="https://2018.melody.cool/media/stickers/tacojs.png" alt="TacoJS logo" style="max-height:1em" /> TacoJS</a>, lead organizer (on hiatus)</li>
   <li><a href="http://septayac.com" target="_blank" class="uno"><img src="https://2018.melody.cool/media/stickers/septa.png" alt="SEPTA logo" style="max-height:.8em;vertical-align:baseline" /> SEPTA Youth Advisory Council</a>, tech and equity advisor</li>
   <li><a href="https://twitter.com/hrgesports" target="_blank" class="uno"><img src="https://2018.melody.cool/media/stickers/hrg.png" alt="HRG logo" style="max-height:1em" /> Hormone Replacement Gaming</a>, pro~fresh~ional <a href="https://twitter.com/pixelysquid" target="_blank" class="uno"><img src="https://2018.melody.cool/media/stickers/squid.png" alt="Splatoon squid" style="max-height:1em; transform:rotate(22deg)" /> Splatoon 2</a> player</li>
@@ -107,4 +108,10 @@ layout: default
 
 <p>
   <strong>Let's build something cool together!</strong> The best way to get in touch with me is thru Twitter DMs. You can also send an email to hi at this domain!
+</p>
+
+<hr>
+
+<p>
+  PS This site was built on a <a href="https://www.twitch.tv/videos/386750942" target="_blank" class="uno">livestream</a> with <a href="https://glitch.com/~melody" target="_blank" class="uno">Glitch</a> and <a href="https://glitch.com/~jekyll-starter" target="_blank" class="uno">jekyll-starter</a>.
 </p>
